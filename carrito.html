@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Botín | JINX SHOP</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="hamburger-btn"><span></span><span></span><span></span></label>
+            <nav class="side-menu">
+                <ul>
+                    <li><a href="index.html">🏠 Inicio</a></li>
+                    <li><a href="catalogo.html">📂 Catálogo</a></li>
+                    <li><a href="carrito.html">🛒 Carrito</a></li>
+                    <li><a href="perfil.html">👤 Perfil</a></li>
+                </ul>
+            </nav>
+            <div class="logo-container">
+                <img src="img/logo-jinx.png" class="logo-img" alt="Logo">
+                <h1 class="logo-text">MI <span class="flicker">CARRITO</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="content cart-layout">
+        <section class="cart-items">
+            <div class="cart-item">
+                <img src="img/chaqueta1.webp" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4>Chaqueta Arcane</h4>
+                    <p class="ref">Ref: #SKU12345</p>
+                    <div class="cart-qty">
+                        <button class="qty-btn">−</button>
+                        <span class="qty-num">1</span>
+                        <button class="qty-btn">+</button>
+                    </div>
+                </div>
+                <div class="cart-item-price">
+                    <button class="delete-btn">🗑️</button>
+                    <p class="price">$127.50</p>
+                    <span class="subtotal-label">subtotal</span>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="img/poro1.webp" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4>Sombrero de Poro</h4>
+                    <p class="ref">Ref: #SKU67890</p>
+                    <div class="cart-qty">
+                        <button class="qty-btn">−</button>
+                        <span class="qty-num">2</span>
+                        <button class="qty-btn">+</button>
+                    </div>
+                </div>
+                <div class="cart-item-price">
+                    <button class="delete-btn">🗑️</button>
+                    <p class="price">$50.00</p>
+                    <span class="subtotal-label">subtotal</span>
+                </div>
+            </div>
+        </section>
+
+        <aside class="cart-summary">
+            <div class="summary-details">
+                <div class="summary-line">
+                    <span>Subtotal</span>
+                    <span>$177.50</span>
+                </div>
+                <div class="summary-line">
+                    <span>Impuestos</span>
+                    <span>$15.30</span>
+                </div>
+                <hr class="summary-divider">
+                <div class="summary-line total">
+                    <span>Total</span>
+                    <span class="total-price">$192.80</span>
+                </div>
+            </div>
+            <button class="btn-jinx btn-pay">PROCEDER AL PAGO</button>
+        </aside>
+    </main>
+
+    <footer class="main-footer">
+        <p>2026 | JinxShop. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

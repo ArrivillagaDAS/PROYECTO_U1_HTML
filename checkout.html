@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Finalizar Compra | JINX Shop</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body class="dark-theme">
+
+    <header class="main-header">
+        <div class="header-container">
+
+            <div class="header-right">
+    <a href="index.html" class="jinx-back-button">
+        <div class="arrow-container">
+            <span class="arrow-icon neon-text-pink flicker-slow">←</span>
+        </div>
+        <span class="back-text neon-text-cyan">BACK</span>
+    </a>
+    
+</div>
+        </div>
+    </header>
+
+    <main class="checkout-container">
+        <section class="checkout-section">
+            <h2 class="section-neon-title">Envío</h2>
+            <div class="form-group">
+                <label>Nombre Completo</label>
+                <input type="text" placeholder="Ingresa tu nombre completo" class="jinx-input">
+            </div>
+            <div class="form-group">
+                <label>Dirección</label>
+                <input type="text" placeholder="Ingresa tu dirección en Zaun" class="jinx-input">
+            </div>
+            <div class="form-group">
+                <label>Ciudad</label>
+                <input type="text" placeholder="Tu ciudad" class="jinx-input">
+            </div>
+        </section>
+
+        <section class="checkout-section">
+            <h2 class="section-neon-title">Método de Pago</h2>
+            <div class="payment-grid">
+                <div class="payment-card active">
+                    <span class="icon">💳</span>
+                    <p>Misa</p>
+                </div>
+                <div class="payment-card">
+                    <span class="icon">🏦</span>
+                    <p>MasCard</p>
+                </div>
+                <div class="payment-card">
+                    <span class="icon">📱</span>
+                    <p>Peypal</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-summary-box">
+            <h3 class="summary-title">Resumen de tu Orden</h3>
+            
+            <div class="summary-item">
+                <div class="item-info">
+                    <p class="item-name">Chaqueta Kai'Sa</p>
+                    <p class="item-qty">Cantidad: 1</p>
+                </div>
+                <span class="item-price">$127.50</span>
+            </div>
+
+            <div class="summary-total">
+                <span>Total</span>
+                <span class="total-amount">$127.50</span>
+            </div>
+        </section>
+
+        <footer class="checkout-footer">
+            <button class="btn-pay-neon">Pagar $127.50</button>
+        </footer>
+    </main>
+
+</body>
+</html>
