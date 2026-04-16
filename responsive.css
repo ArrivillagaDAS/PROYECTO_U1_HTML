@@ -15,13 +15,10 @@
         height: 150px;
     }
 
-    .categories-grid {
-        display: flex;
-        overflow-x: auto; 
-        gap: 15px;
-        padding-bottom: 10px;
-        justify-content: flex-start; 
-    }
+.categories-grid {
+    display: flex;
+    overflow-x: auto; 
+}
 
     .category-card {
         min-width: 80px;
