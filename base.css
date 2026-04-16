@@ -1,0 +1,23 @@
+/* base.css */
+:root {
+    --jinx-blue: #00f3ff;
+    --jinx-pink: #ff00ff;
+    --card-bg: rgba(20, 20, 20, 0.9);
+    --bg-dark: #050505;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--bg-dark);
+    /* Recuperando el fondo de espiral/textura */
+    background-image: radial-gradient(circle at center, #1a1a1a 0%, #050505 100%);
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
