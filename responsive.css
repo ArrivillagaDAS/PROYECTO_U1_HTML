@@ -1,0 +1,6 @@
+/* responsive.css */
+@media (max-width: 768px) {
+    .logo-text { font-size: 1.4rem; }
+    .logo-img { height: 80px !important; }
+    .side-menu { width: 100%; left: -100%; }
+}
