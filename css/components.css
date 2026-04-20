@@ -25,7 +25,7 @@
     backdrop-filter: blur(5px);
 }
 
-/* clases para Carrito y Usuari */
+/* clases para carrito y usuario*/
 .profile-card, .cart-container {
     background: var(--card-bg);
     border: 2px solid var(--jinx-blue);
